@@ -17,16 +17,16 @@ All analysis is implemented inside a single Jupyter Notebook: **`Dr_Chi_22_9_202
 
 ```
 
-## 🧪 Features of the Analysis
+# 🧪 Features of the Analysis
 The notebook (`Dr_Chi_22_9_2025.ipynb`) includes:
-- **Data loading and preprocessing**
-- **Handling missing values**
-- **Chemical/biological feature engineering**
-- **Statistical summary of the dataset**
-- **Visualizations** (heatmaps, histograms, scatter plots, correlations)
-- **Machine learning** (if applicable)
-- **Evaluation metrics**
-- **Interpretation of results** for MCF7 assays
+- Data loading and preprocessing
+- Handling missing values
+- Chemical/biological feature engineering
+- Statistical summary of the dataset
+- Visualizations** (heatmaps, histograms, scatter plots, correlations)
+- Machine learning
+- Evaluation metrics
+- Interpretation of results for MCF7 assays
 
 ## 🚀 How to Run the Notebook
 ### 1. Clone the repository
