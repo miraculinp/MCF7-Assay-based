@@ -8,6 +8,7 @@ https://github.com/miraculinp/MCF7-Assay-based
 
 A high-performance QSAR modeling pipeline for predicting anticancer activity (pIC₅₀) against the **MCF-7 human breast adenocarcinoma cell line** using large-scale assay data from PubChem/ChEMBL.
 
+This repository implements a **stacked ensemble machine learning model** combining molecular fingerprints and physicochemical descriptors with state-of-the-art interpretability (SHAP) — achieving **R² ≈ 0.88** and **RMSE ≈ 0.38** on external test sets.
 
 ## Project Highlights
 
@@ -24,14 +25,16 @@ A high-performance QSAR modeling pipeline for predicting anticancer activity (pI
 - **Reproducibility**: Fixed seeds, timestamped model/prediction saving, publication-ready plots
 
 
-```
+## Quick Start
 
+```bash
 git clone https://github.com/miraculinp/MCF7-Assay-based.git
 cd MCF7-Assay-based
 
 # Recommended: Use Google Colab (one-click RDKit install included)
 # Or locally:
 pip install rdkit molvs tqdm pandas numpy scikit-learn xgboost lightgbm shap matplotlib seaborn
+```
 
 Then open and run the notebook:  
 `MCF7_QSAR_Stacked_Ensemble.ipynb`
@@ -85,8 +88,6 @@ MIT License – free to use, modify, and distribute.
 
 **Author**: Olapade Miracle  
 **Email**: olapademiracleo@gmail.com  
-
-
 
 
 
