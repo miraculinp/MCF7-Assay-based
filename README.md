@@ -26,16 +26,12 @@ A high-performance QSAR modeling pipeline for predicting anticancer activity (pI
 
 ```
 
-## Quick Start
-
-```bash
 git clone https://github.com/miraculinp/MCF7-Assay-based.git
 cd MCF7-Assay-based
 
 # Recommended: Use Google Colab (one-click RDKit install included)
 # Or locally:
 pip install rdkit molvs tqdm pandas numpy scikit-learn xgboost lightgbm shap matplotlib seaborn
-```
 
 Then open and run the notebook:  
 `MCF7_QSAR_Stacked_Ensemble.ipynb`
