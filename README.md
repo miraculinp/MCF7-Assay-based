@@ -8,7 +8,6 @@ https://github.com/miraculinp/MCF7-Assay-based
 
 A high-performance QSAR modeling pipeline for predicting anticancer activity (pIC₅₀) against the **MCF-7 human breast adenocarcinoma cell line** using large-scale assay data from PubChem/ChEMBL.
 
-This repository implements a **stacked ensemble machine learning model** combining molecular fingerprints and physicochemical descriptors with state-of-the-art interpretability (SHAP) — achieving **R² ≈ 0.88** and **RMSE ≈ 0.38** on external test sets.
 
 ## Project Highlights
 
