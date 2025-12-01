@@ -1,0 +1,5 @@
+Model,Inactive (0),Active (1),Total
+LightGBM,9960,46,10006
+ExtraTrees,9998,8,10006
+KNN,9756,250,10006
+Ensemble,9993,13,10006
